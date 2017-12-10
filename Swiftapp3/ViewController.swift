@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         theLabel.text = "Changed text."
         self.view.backgroundColor = UIColor.blue
         
-        if tapCount >= 10 {
-            labelButtonPushed.text = "You've pushed button1 10+ times."
+        if tapCount >= 20 {
+            labelButtonPushed.text = "You've pushed button1 20+ times."
         }
         print(">>>>>Button1 tapped.<<<<<")
         print(tapCount)
